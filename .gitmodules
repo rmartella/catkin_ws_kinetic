@@ -1,0 +1,24 @@
+[submodule "glog_catkin"]
+	path = glog_catkin
+	url = https://github.com/ethz-asl/glog_catkin.git
+[submodule "catkin_simple"]
+	path = catkin_simple
+	url = https://github.com/catkin/catkin_simple.git
+[submodule "gflags"]
+	path = gflags
+	url = https://github.com/davetcoleman/gflags.git
+[submodule "openpose_ros"]
+	path = openpose_ros
+	url = https://github.com/firephinx/openpose_ros.git
+[submodule "src/glog_catkin"]
+	path = src/glog_catkin
+	url = https://github.com/ethz-asl/glog_catkin.git
+[submodule "src/gflags"]
+	path = src/gflags
+	url = https://github.com/davetcoleman/gflags.git
+[submodule "src/catkin_simple"]
+	path = src/catkin_simple
+	url = https://github.com/catkin/catkin_simple.git
+[submodule "src/openpose_ros"]
+	path = src/openpose_ros
+	url = https://github.com/firephinx/openpose_ros.git
