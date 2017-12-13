@@ -11,7 +11,7 @@ int main(int argc, char ** argv){
 
     std::vector<biorobotics::Polygon> polygons = biorobotics::parserFile("/opt/codigo/ros/catkin_ws_kinetic/src/wrl_to_map/wrl/random_1.wrl");
 
-    ros::Publisher pubMap = nh.advertise<nav_msgs::OccupancyGrid>("wrl_to_map", 1);
+    ros::Publisher pubMap = nh.advertise<nav_msgs::OccupancyGrid>("map", 1);
 
     biorobotics::Vertex2 origin(-20.0, -20.0);
     float res = 0.05;
